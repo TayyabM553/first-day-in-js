@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="one.css">
+</head>
+
+<body id="body">
+    <div id="d1">
+        <button id="on" onclick="document.getElementById('image').src='onbulb.jpeg'">on</button>
+        <img id="image" src="offbulb.jpeg" alt="bulb">
+        <button id="off" onclick="document.getElementById('image').src='offbulb.jpeg'">off</button>
+    </div>
+
+    <button id="next" onclick="document.getElementById('image1').src='12.3.webp',document.getElementById('next').style.backgroundColor='rgb(20, 114, 91)', document.getElementById('pre').style.backgroundColor='rgb(20, 114, 91)' ">Next color</button>
+    <div id="d2"><img id="image1" src="12.3.webp" alt="shoes" height="270px" width="270px"></div>
+    <button id="pre" onclick="document.getElementById('image1').src='10.3.webp', document.getElementById('next').style.backgroundColor='black', document.getElementById('pre').style.backgroundColor='black'">Previous Color</button>
+    <div id="d3">
+        <p id="p1"></p>
+    </div>
+    <div id="d4">
+        <button id="btn1"
+            onclick="document.getElementById('day').src='dayimg.png' ,document.getElementById('body').style.backgroundColor='white'">Day</button>
+        <img id="day" src="dayimg.png" alt="">
+        <button id="btn2"
+            onclick="document.getElementById('day').src='nightimg.png' ,document.getElementById('body').style.backgroundColor='darkslategrey'">Night</button>
+    </div>
+    <div id="d5">
+        <button id="fanon" onclick="document.getElementById('fan').src='fanon.gif'" >fan on</button>
+        <img id="fan" src="fanoff1.jpeg" alt="" width="400px" height="auto">
+        <button id="fanoff" onclick="document.getElementById('fan').src='fanoff1.jpeg'">fan off</button>
+    </div>
+    <button onclick="window.print()">Print this page</button>
+    <script src="one.js">print</script>
+</body>
+
+</html>

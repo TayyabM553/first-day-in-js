@@ -1,0 +1,11 @@
+document.getElementById("p1").innerHTML="hello";
+document.getElementById("p1").style.color='red';
+document.getElementById("p1").style.fontSize='30px';
+document.getElementById("p1").style.backgroundColor="black";
+document.getElementById("p1").style.height="100px";
+document.getElementById("p1").style.width='200px';
+document.getElementById("p1").style.padding='20px';
+document.getElementById("p1").style.boxSizing='border-box';
+document.getElementById("d3").style.marginLeft="600px";
+document.getElementById("d3").style.marginTop='-700px';
+window.alert("hello World");
